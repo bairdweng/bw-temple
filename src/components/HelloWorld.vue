@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
-      check out the
+      check out the  d
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
@@ -31,11 +31,16 @@
 </template>
 
 <script>
-export default {
+export default   {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  methods: {
+    test()  {
+      let i = ''
+    }
+  },
 }
 </script>
 
