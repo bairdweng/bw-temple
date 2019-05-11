@@ -31,15 +31,16 @@
 </template>
 
 <script>
-export default   {
+export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
   },
   methods: {
-    test()  {
-      let i = ''
-    }
+    test() {
+      const i = ''
+      console.log(i)
+    },
   },
 }
 </script>
